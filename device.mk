@@ -10,6 +10,10 @@ $(call inherit-product, device/motorola/sm6150-common/common.mk)
 # Enable Virtual A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # A/B Updater
 AB_OTA_PARTITIONS += \
     system_ext \
