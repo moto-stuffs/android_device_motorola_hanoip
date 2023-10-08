@@ -32,6 +32,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 BOARD_INCLUDE_RECOVERY_DTBO := false
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab_hanoip.qcom
 
 # Verified Boot
 BOARD_AVB_VBMETA_SYSTEM := system
