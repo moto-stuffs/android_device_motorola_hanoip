@@ -34,5 +34,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 30
+PRODUCT_TARGET_VNDK_VERSION := 30
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/hanoip/hanoip-vendor.mk)
