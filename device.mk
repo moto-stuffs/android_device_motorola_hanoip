@@ -7,6 +7,9 @@
 # Inherit from sm6150-common
 $(call inherit-product, device/motorola/sm6150-common/common.mk)
 
+# Shipping API Level
+PRODUCT_SHIPPING_API_LEVEL := 30
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
