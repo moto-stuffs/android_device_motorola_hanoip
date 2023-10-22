@@ -63,6 +63,11 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += checkpoint_gc 
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.oem.fingerprint.sh \
+    init.oem.fingerprint2.sh
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
