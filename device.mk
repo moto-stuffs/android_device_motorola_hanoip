@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.mmi.overlay.rc \
     init.oem.fingerprint.sh \
     init.oem.fingerprint2.sh
 
