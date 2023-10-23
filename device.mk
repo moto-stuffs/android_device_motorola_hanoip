@@ -91,6 +91,10 @@ PRODUCT_PACKAGES += \
     init.oem.fingerprint.sh \
     init.oem.fingerprint2.sh
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-service.multihal
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
