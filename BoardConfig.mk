@@ -9,5 +9,8 @@ include device/motorola/sm6150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/hanoip
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Inherit from proprietary files
 include vendor/motorola/hanoip/BoardConfigVendor.mk
