@@ -28,5 +28,10 @@ BOARD_MOT_DP_GROUP_SIZE := 5398069248
 BOARD_MOT_DP_GROUP_PARTITION_LIST += system_ext
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 
+# Recovery
+BOARD_INCLUDE_RECOVERY_DTBO := false
+BOARD_USES_RECOVERY_AS_BOOT := true
+TARGET_NO_RECOVERY := true
+
 # Inherit from proprietary files
 include vendor/motorola/hanoip/BoardConfigVendor.mk
