@@ -7,6 +7,15 @@
 # Inherit from sm6150-common
 $(call inherit-product, device/motorola/sm6150-common/common.mk)
 
+AB_OTA_PARTITIONS += \
+    system_ext \
+    vbmeta_system \
+    vendor_boot
+
+# Partitions
+PRODUCT_BUILD_SUPER_PARTITION := false
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 30
 

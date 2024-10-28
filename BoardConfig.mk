@@ -20,5 +20,13 @@ TARGET_KERNEL_CONFIG := vendor/hanoip_defconfig
 TARGET_MODULE_ALIASES += \
     snd-soc-aw882xx.ko:snd_smartpa_aw882xx.ko
 
+# Partitions
+BOARD_DTBOIMG_PARTITION_SIZE := 8388608
+BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
+BOARD_SUPER_PARTITION_SIZE := 10804527104 
+BOARD_MOT_DP_GROUP_SIZE := 5398069248
+BOARD_MOT_DP_GROUP_PARTITION_LIST += system_ext
+TARGET_COPY_OUT_SYSTEM_EXT := system_ext
+
 # Inherit from proprietary files
 include vendor/motorola/hanoip/BoardConfigVendor.mk
