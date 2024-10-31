@@ -8,6 +8,9 @@ persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb
 persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
 persist.vendor.audio.calfile7=/vendor/etc/acdbdata/Codec_cal.acdb
 
+# Camera
+persist.vendor.camera.physical.num=5
+
 # SoC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7150
