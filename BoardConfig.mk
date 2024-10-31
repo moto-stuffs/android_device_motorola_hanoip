@@ -32,6 +32,9 @@ BOARD_MOT_DP_GROUP_PARTITION_LIST += system_ext
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 
 # Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery

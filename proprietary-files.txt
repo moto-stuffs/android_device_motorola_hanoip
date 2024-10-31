@@ -1,1 +1,17 @@
 # All unpinned blobs below are extracted from hanoip S2RI32.32-20-9-9-2
+
+# Audio (ACDB)
+vendor/etc/acdbdata/Bluetooth_cal.acdb
+vendor/etc/acdbdata/Codec_cal.acdb
+vendor/etc/acdbdata/General_cal.acdb
+vendor/etc/acdbdata/Global_cal.acdb
+vendor/etc/acdbdata/Handset_cal.acdb
+vendor/etc/acdbdata/Hdmi_cal.acdb
+vendor/etc/acdbdata/Headset_cal.acdb
+vendor/etc/acdbdata/Speaker_cal.acdb
+vendor/etc/acdbdata/adsp_avs_config.acdb
+
+# Audio (Firmware)
+vendor/firmware/aw882xx_monitor.bin
+vendor/firmware/aw882xx_rcv_reg.bin
+vendor/firmware/aw882xx_spk_reg.bin

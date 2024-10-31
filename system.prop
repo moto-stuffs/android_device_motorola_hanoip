@@ -1,0 +1,4 @@
+# Audio
+qcom.hw.aac.encoder=true
+tunnel.audio.encode=true
+use.voice.path.for.pcm.voip=true
