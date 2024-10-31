@@ -1,0 +1,1 @@
+require board=sm6150|hanoip|hanoip_retail
