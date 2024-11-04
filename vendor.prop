@@ -11,6 +11,10 @@ persist.vendor.audio.calfile7=/vendor/etc/acdbdata/Codec_cal.acdb
 # Camera
 persist.vendor.camera.physical.num=5
 
+# Display
+persist.sys.sf.color_mode=0
+ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
+
 # SoC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7150

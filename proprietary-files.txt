@@ -142,3 +142,12 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/bin/vl53l1_daemon_main
 vendor/lib64/libvl53l1_daemon_main.so
 vendor/lib64/sensors.tof.vl53l1.so
+
+# Charger
+vendor/bin/charge_only_mode
+
+# Display (Calibration Data)
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_ili7807s_fhd_678.xml
+
+# Display (HDR)
+vendor/etc/hdr_tm_config.xml
