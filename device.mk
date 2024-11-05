@@ -72,7 +72,8 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    FrameworksResHanoip
+    FrameworksResHanoip \
+    SystemUIResHanoip
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
