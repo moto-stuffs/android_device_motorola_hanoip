@@ -15,6 +15,12 @@ persist.vendor.camera.physical.num=5
 persist.sys.sf.color_mode=0
 ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
 
+# Sensors
+ro.hardware.sensors=hanoip
+ro.vendor.sensors.mot_ltv=true
+ro.vendor.sensors.glance_approach=false
+ro.vendor.sensors.drop=true
+
 # SoC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7150
