@@ -183,5 +183,8 @@ vendor/firmware/ipa_fws.mdt
 # NFC
 vendor/lib64/libpn557_fw.so
 
+# OEM
+vendor/etc/vhw.xml
+
 # Touchscreen (Firmware)
 vendor/firmware/FW_ILITEK_TDDI_TM.bin
