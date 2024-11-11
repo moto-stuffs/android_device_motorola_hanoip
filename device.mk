@@ -97,6 +97,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-hanoip.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-hanoip.conf
+
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
 PRODUCT_TARGET_VNDK_VERSION := 30
