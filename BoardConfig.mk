@@ -21,6 +21,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := vendor/hanoip_defconfig
 
 # Kernel modules - Audio
