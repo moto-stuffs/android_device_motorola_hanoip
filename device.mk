@@ -87,10 +87,13 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    fstab.hanoip \
+    fstab.qcom \
     init.mmi.overlay.rc \
     init.oem.fingerprint.sh \
     init.oem.fingerprint2.sh
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom.hanoip:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
 # Sensors
 PRODUCT_PACKAGES += \
